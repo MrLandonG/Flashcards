@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Flashcards</string>
+    <string name="text_view_title">Japanese Flashcards</string>
+    <string name="button_hiragana">Hiragana</string>
+    <string name="button_katakana">Katakana</string>
+    <string name="text_view_randomize">Randomize</string>
+    <string name="text_view_diacritic">Diacritics</string>
+    <string name="text_view_digraph">Digraphs</string>
+    <string name="text_view_digraphs_with_diacritics">Digraphs with diacritics</string>
+    <string name="string_progress">%1$d / %2$d</string>
+</resources>
