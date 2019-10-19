@@ -7,6 +7,12 @@ public class Vocabulary {
     private String english;
     private String category;
 
+    public Vocabulary(String word, String answer, String type) {
+        character = word;
+        english = answer;
+        category = type;
+    }
+
     public String getCharacter() {
         return character;
     }
@@ -17,13 +23,6 @@ public class Vocabulary {
 
     public String getCatergory() {
         return category;
-    }
-
-
-    public Vocabulary(String word, String answer, String type) {
-        character = word;
-        english = answer;
-        category = type;
     }
 
 }

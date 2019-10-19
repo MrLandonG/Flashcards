@@ -1,26 +1,31 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.material:material:1.1.0-beta01] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\0b446479c9ce66c19788a9e0e2178ba0\material-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\f5bdf8930f5b0dade80802408310dda6\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\1d93c655cdcaa19a3180f48e63f30b3d\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\df9a84c4655b7cf6fd3ecff2821fd9d3\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\a44642c3bddc1cd9ae77529ce5394be3\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\67e3a22614326cadf216274f01d6d423\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\a9608eab5c04bc79d9894b8c999ea514\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\278c8e284db6fc9800db55d51ff5aab6\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\a44642c3bddc1cd9ae77529ce5394be3\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\bf0848ee243e36dc13961016c6f63543\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\9572194aa98bde0ee13f87e0985824cf\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta04] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7069f94c00a30ecb63c486a742952bc7\viewpager2-1.0.0-beta04\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\df9a84c4655b7cf6fd3ecff2821fd9d3\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\3d66247cb3e229dc7753f5f4d3b35b4b\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\e7201af0ac6a1eb782d2b896d1ec4242\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\984e9edaa0792ad5f44429be517dd8ee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta04] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\051abc67d3c4e33bdb6b5289276bbacd\recyclerview-1.1.0-beta04\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7ae8c1d65b7331eeb350edf91287a16c\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\de3b4aff63e255359d6d83ac6fbdaff5\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\b96b3435fb358bdd7f04f1152639314c\activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\bf0848ee243e36dc13961016c6f63543\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\9572194aa98bde0ee13f87e0985824cf\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\cbfe81a657ef2afb513a6ca64388f844\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\985ff358bb91108c25d3fd24361b35b6\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\2dfde23a071269bfc073d57af77f7873\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\de3b4aff63e255359d6d83ac6fbdaff5\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\b96b3435fb358bdd7f04f1152639314c\activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\9b9140e118d7f4f83e504277c0661cb2\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7b3b7b721ad53547c0e35001526b3ae3\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:17:1-26:12
@@ -36,25 +41,27 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\lando_000\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\e7284bace20bec096294b5474e153fbf\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\c073c929da6ad4e112abaac7d3212747\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\e72949b043b8df7a6068dab5e7cd21f2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-22:12
 		INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:1-22:12
 		INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:5:5-20:19
+MERGED from [com.google.android.material:material:1.1.0-beta01] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\0b446479c9ce66c19788a9e0e2178ba0\material-1.1.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-beta01] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\0b446479c9ce66c19788a9e0e2178ba0\material-1.1.0-beta01\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:5-89
@@ -74,63 +81,73 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\la
 	android:allowBackup
 		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:11:9-43
 activity#com.example.flashcards.Flashcard
-ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:12:9-13:20
+ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:12:9-56
 	android:name
 		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:12:19-44
 activity#com.example.flashcards.MainActivity
-ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\lando_000\Desktop\Flashcards\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-beta01] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\0b446479c9ce66c19788a9e0e2178ba0\material-1.1.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-beta01] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\0b446479c9ce66c19788a9e0e2178ba0\material-1.1.0-beta01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\f5bdf8930f5b0dade80802408310dda6\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\f5bdf8930f5b0dade80802408310dda6\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\1d93c655cdcaa19a3180f48e63f30b3d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\1d93c655cdcaa19a3180f48e63f30b3d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\df9a84c4655b7cf6fd3ecff2821fd9d3\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\df9a84c4655b7cf6fd3ecff2821fd9d3\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\a44642c3bddc1cd9ae77529ce5394be3\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\a44642c3bddc1cd9ae77529ce5394be3\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\67e3a22614326cadf216274f01d6d423\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\67e3a22614326cadf216274f01d6d423\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\a9608eab5c04bc79d9894b8c999ea514\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\a9608eab5c04bc79d9894b8c999ea514\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\278c8e284db6fc9800db55d51ff5aab6\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\278c8e284db6fc9800db55d51ff5aab6\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\a44642c3bddc1cd9ae77529ce5394be3\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\a44642c3bddc1cd9ae77529ce5394be3\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\bf0848ee243e36dc13961016c6f63543\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\bf0848ee243e36dc13961016c6f63543\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\9572194aa98bde0ee13f87e0985824cf\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\9572194aa98bde0ee13f87e0985824cf\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta04] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7069f94c00a30ecb63c486a742952bc7\viewpager2-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta04] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7069f94c00a30ecb63c486a742952bc7\viewpager2-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\df9a84c4655b7cf6fd3ecff2821fd9d3\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\df9a84c4655b7cf6fd3ecff2821fd9d3\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\3d66247cb3e229dc7753f5f4d3b35b4b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\3d66247cb3e229dc7753f5f4d3b35b4b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\e7201af0ac6a1eb782d2b896d1ec4242\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\e7201af0ac6a1eb782d2b896d1ec4242\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\984e9edaa0792ad5f44429be517dd8ee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\984e9edaa0792ad5f44429be517dd8ee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta04] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\051abc67d3c4e33bdb6b5289276bbacd\recyclerview-1.1.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta04] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\051abc67d3c4e33bdb6b5289276bbacd\recyclerview-1.1.0-beta04\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7ae8c1d65b7331eeb350edf91287a16c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7ae8c1d65b7331eeb350edf91287a16c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\de3b4aff63e255359d6d83ac6fbdaff5\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\de3b4aff63e255359d6d83ac6fbdaff5\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\b96b3435fb358bdd7f04f1152639314c\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\b96b3435fb358bdd7f04f1152639314c\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\bf0848ee243e36dc13961016c6f63543\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\bf0848ee243e36dc13961016c6f63543\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\9572194aa98bde0ee13f87e0985824cf\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\9572194aa98bde0ee13f87e0985824cf\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\cbfe81a657ef2afb513a6ca64388f844\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\cbfe81a657ef2afb513a6ca64388f844\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\985ff358bb91108c25d3fd24361b35b6\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\985ff358bb91108c25d3fd24361b35b6\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\2dfde23a071269bfc073d57af77f7873\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\2dfde23a071269bfc073d57af77f7873\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\de3b4aff63e255359d6d83ac6fbdaff5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\de3b4aff63e255359d6d83ac6fbdaff5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\b96b3435fb358bdd7f04f1152639314c\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\b96b3435fb358bdd7f04f1152639314c\activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\9b9140e118d7f4f83e504277c0661cb2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\9b9140e118d7f4f83e504277c0661cb2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\lando_000\.gradle\caches\transforms-2\files-2.1\7b3b7b721ad53547c0e35001526b3ae3\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44

@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">Flashcards</string>
-    <string name="text_view_title">Japanese Flashcards</string>
-    <string name="button_hiragana">Hiragana</string>
-    <string name="button_katakana">Katakana</string>
+    <string name="text_view_hiragana">Hiragana</string>
+    <string name="text_view_katakana">Katakana</string>
+    <string name="text_view_vocabulary">Vocabulary</string>
+    <string name="text_view_kanji">Kanji</string>
+    <string name="text_view_sample_hiragana">あ</string>
+    <string name="text_view_sample_katakana">ア</string>
+    <string name="text_view_sample_vocabulary">日本</string>
+    <string name="text_view_sample_kanji">人</string>
+
     <string name="text_view_randomize">Randomize</string>
     <string name="text_view_diacritic">Diacritics</string>
     <string name="text_view_digraph">Digraphs</string>

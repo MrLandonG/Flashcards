@@ -1,15 +1,15 @@
 package com.example.flashcards;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
-import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
-import android.widget.CheckBox;
+import android.widget.Toast;
+
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,11 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button_select_hiragana = findViewById(R.id.button_hiragana);
-        Button button_select_katakana = findViewById(R.id.button_katakana);
-
-        // User clicks hiragana button
-        button_select_hiragana.setOnClickListener(new View.OnClickListener() {
+        CardView card_hiragana = findViewById(R.id.card_hiragana);
+        card_hiragana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 flashcard_deck = "Hiragana";
@@ -32,44 +29,55 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // User clicks katakana button
-        button_select_katakana.setOnClickListener(new View.OnClickListener() {
+        CardView card_katakana = findViewById(R.id.card_katakana);
+        card_katakana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 flashcard_deck = "Katakana";
                 openSettings(flashcard_deck);
             }
         });
+
+        CardView card_vocabulary = findViewById(R.id.card_vocabulary);
+        card_vocabulary.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Vocabulary card pressed!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        CardView card_kanji = findViewById(R.id.card_kanji);
+        card_kanji.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Kanji card pressed!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
-    // Checks with the user if they would like to review the selected flashcards
-    public void openSettings(final String flashcard_deck) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+    // Allows the user to add additional digraph and diacritic cards and randomize the cards
+    private void openSettings(final String flashcard_deck) {
 
-        // Inflater custom view
-        LayoutInflater inflater = MainActivity.this.getLayoutInflater();
-        final View view = inflater.inflate(R.layout.dialog_settings, null);
+        String[] additional_settings = new String[]{"Randomize", "Digraph", "Diacritic", "Digraphs with diacritics"};
+        final boolean[] checked_settings = new boolean[]{false, true, true, true};
 
-        builder.setView(view)
+        new MaterialAlertDialogBuilder(MainActivity.this)
                 .setTitle("Additional options")
+                .setMultiChoiceItems(additional_settings, checked_settings, new DialogInterface.OnMultiChoiceClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+                        checked_settings[which] = isChecked;
+                    }
+                })
+
                 .setPositiveButton("Start", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(MainActivity.this, Flashcard.class);
                         intent.putExtra("flashcard_deck", flashcard_deck);
-
-                        CheckBox checkbox_randomize = view.findViewById(R.id.checkbox_randomize);
-                        CheckBox checkbox_digraph = view.findViewById(R.id.checkbox_digraph);
-                        CheckBox checkbox_diacritic = view.findViewById(R.id.checkbox_diacritic);
-                        CheckBox checkbox_digraphs_with_diacritics = view.findViewById(R.id.checkbox_digraphs_with_diacritics);
-
-                        intent.putExtra("checkbox_randomize", checkbox_randomize.isChecked());
-                        intent.putExtra("checkbox_digraph", checkbox_digraph.isChecked());
-                        intent.putExtra("checkbox_diacritic", checkbox_diacritic.isChecked());
-                        intent.putExtra("checkbox_digraphs_with_diacritics", checkbox_digraphs_with_diacritics.isChecked());
-
+                        intent.putExtra("checked_settings", checked_settings);
                         startActivity(intent);
-
                     }
                 })
 
@@ -78,9 +86,9 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
                     }
-                });
+                })
 
-        builder.create().show();
+                .show();
 
     }
 

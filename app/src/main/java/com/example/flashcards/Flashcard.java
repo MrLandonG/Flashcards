@@ -41,10 +41,13 @@ public class Flashcard extends AppCompatActivity implements GestureDetector.OnGe
     // Retrieves the flashcards of the chosen deck
     private void getCards() {
         String flashcard_deck = getIntent().getStringExtra("flashcard_deck");
-        boolean isRandom = getIntent().getBooleanExtra("checkbox_randomize", false);
-        boolean isDigraph = getIntent().getBooleanExtra("checkbox_digraph", false);
-        boolean isDiacritic = getIntent().getBooleanExtra("checkbox_diacritic", false);
-        boolean isDigraphs_with_diacritics = getIntent().getBooleanExtra("checkbox_digraphs_with_diacritics", false);
+        boolean[] checked_settings = getIntent().getBooleanArrayExtra("checked_settings");
+        boolean isRandom, isDigraph, isDiacritic, isDigraphs_with_diacritics;
+
+        isRandom = checked_settings[0];
+        isDigraph = checked_settings[1];
+        isDiacritic = checked_settings[2];
+        isDigraphs_with_diacritics = checked_settings[3];
 
         vocab = databaseAccess.getCards(flashcard_deck,
                 isDigraph,
@@ -170,9 +173,7 @@ public class Flashcard extends AppCompatActivity implements GestureDetector.OnGe
             text_view_progress.setText(getString(R.string.string_progress, position + 1, vocab.size()));
             viewFlipper.setDisplayedChild(0);
 
-        }
-
-        else {
+        } else {
             // Safely exit flashcards
         }
 

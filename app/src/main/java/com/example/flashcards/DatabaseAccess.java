@@ -8,9 +8,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 
 public class DatabaseAccess {
+    private static DatabaseAccess instance;
     private SQLiteOpenHelper openHelper;
     private SQLiteDatabase db;
-    private static DatabaseAccess instance;
 
     // Constructor
     private DatabaseAccess(Context context) {
@@ -33,7 +33,7 @@ public class DatabaseAccess {
     public ArrayList<Vocabulary> getCards(String flashcard_deck, boolean isDigraph, boolean isDiacritic, boolean isDigraphs_with_diacritics) {
 
         String deck = "SELECT * FROM " + flashcard_deck;
-        String digraph= "", diacritic = "", digraphs_with_diacritics = "";
+        String digraph = "", diacritic = "", digraphs_with_diacritics = "";
 
         if (isDigraph) {
             digraph = " UNION SELECT * FROM Digraphs_" + flashcard_deck;

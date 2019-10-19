@@ -1,6 +1,7 @@
 package com.example.flashcards;
 
 import android.content.Context;
+
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
 class DatabaseHelper extends SQLiteAssetHelper {

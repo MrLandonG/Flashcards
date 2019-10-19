@@ -1,41 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/text_view_title"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="4dp"
-        android:orientation="horizontal">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_hiragana"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="12dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="12dp">
 
-        <Button
-            android:id="@+id/button_hiragana"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/button_hiragana" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button_katakana"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/button_katakana" />
+            <TextView
+                android:id="@+id/text_view_sample_hiragana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_sample_hiragana"
+                android:textSize="56sp" />
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_hiragana"
+                android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/text_view_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/text_view_title"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 
-</RelativeLayout>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_katakana"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="12dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_sample_katakana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_sample_katakana"
+                android:textSize="56sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_katakana"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_vocabulary"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="12dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_sample_vocabulary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_sample_vocabulary"
+                android:textSize="56sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_vocabulary"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_kanji"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="12dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_kanji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_sample_kanji"
+                android:textSize="56sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_kanji"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</GridLayout>
